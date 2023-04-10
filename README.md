@@ -12,7 +12,8 @@ Clone o repositório em sua máquina:
 # 📁 Acesso ao projeto
 
 
-git clone https://github.com/seu-usuario/nestjs-prisma-base.git
+``git clone`` https://github.com/seu-usuario/nestjs-prisma-base.git
+
 Entre na pasta do projeto:
 
 ``cd nestjs-prisma-base``
