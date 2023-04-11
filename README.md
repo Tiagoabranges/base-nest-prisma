@@ -6,46 +6,7 @@ Pré-requisitos
 Node.js (v14.x ou superior)
 npm ou yarn
 PostgreSQL (v12.x ou superior)
-Instalação
-Clone o repositório em sua máquina:
 
-# 📁 Acesso ao projeto
-
-
-``git clone`` https://github.com/seu-usuario/nestjs-prisma-base.git
-
-Entre na pasta do projeto:
-
-``cd nestjs-prisma-base``
-
-Instale as dependências:
-
-
-``npm install``
-
-Configure o banco de dados PostgreSQL:
-
-Crie um banco de dados vazio para o seu projeto.
-Abra o arquivo .env na raiz do projeto e atualize as informações do banco de dados de acordo com suas configurações.
-Execute as migrações do banco de dados:
-
-
-``npm run prisma:migrate``
-
-Inicie o servidor:
-
-
-``npm run start``
-
-Acesse http://localhost:3000 no seu navegador para testar a aplicação.
-
-Scripts disponíveis
-npm run start: Inicia o servidor em modo de desenvolvimento.
-npm run build: Compila o código TypeScript em JavaScript para a pasta dist/.
-npm run prisma:migrate: Executa as migrações do Prisma para atualizar o banco de dados.
-npm run prisma:generate: Gera os arquivos do Prisma Client baseados no seu schema do Prisma.
-npm run format: Formata o código usando o Prettier.
-npm run lint: Executa a verificação de linting usando o ESLint.
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - ``Node.js``
