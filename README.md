@@ -56,6 +56,9 @@ npm run lint: Executa a verificação de linting usando o ESLint.
 
 
 
+## Se for usar uma imagem docker do postgres, utilize esse comando
+
+``docker run --name my-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres``
 
 
 # 🛠️ Estrutura do projeto
