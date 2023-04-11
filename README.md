@@ -14,6 +14,7 @@ PostgreSQL (v12.x ou superior)
 - ``Prisma``
 - ``PostgreSQL``
 - ``TypeScript``
+- ``docker``
 
 
 
